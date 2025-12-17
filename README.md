@@ -41,7 +41,7 @@
 <img align="right" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/✓_3+_Sites_em_Produção-0a192f?style=flat-square&labelColor=d4af37"/>
+  <img src="https://img.shields.io/badge/✓_Sites_em_Produção-0a192f?style=flat-square&labelColor=d4af37"/>
   <img src="https://img.shields.io/badge/✓_Clientes_Reais-0a192f?style=flat-square&labelColor=d4af37"/>
   <img src="https://img.shields.io/badge/✓_Deploy_Completo-0a192f?style=flat-square&labelColor=d4af37"/>
 </p>
