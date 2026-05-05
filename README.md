@@ -1,314 +1,296 @@
 <div align="center">
 
-<!-- ELEGANT HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:1a365d,100:0a192f&height=200&section=header&text=Herison%20da%20Costa%20Araujo&fontSize=42&fontColor=d4af37&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20React%20%7C%20Node.js%20%7C%20TypeScript%20%7C%20PostgreSQL&descSize=16&descAlignY=55&descColor=ffffff&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,45:1E3A8A,100:0B1120&height=220&section=header&text=Herison%20Ara%C3%BAjo&fontSize=48&fontColor=F8FAFC&fontAlignY=34&desc=IA%20%7C%20Automa%C3%A7%C3%A3o%20%7C%20Produtos%20Digitais%20%7C%20Opera%C3%A7%C3%B5es%20T%C3%A9cnicas&descSize=17&descAlignY=57&descColor=38BDF8&animation=fadeIn" alt="Herison Araújo - IA, Automação, Produtos Digitais e Operações Técnicas" />
 
-<!-- SOCIAL BADGES -->
 <p>
-  <a href="https://linkedin.com/in/herisonaraujo">
-    <img src="https://img.shields.io/badge/LinkedIn-0a192f?style=for-the-badge&logo=linkedin&logoColor=d4af37"/>
+  <a href="https://www.linkedin.com/in/herison-araujo">
+    <img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" />
   </a>
   <a href="https://herisonaraujo.github.io">
-    <img src="https://img.shields.io/badge/CV-0a192f?style=for-the-badge&logo=readme&logoColor=d4af37"/>
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-0B1120?style=for-the-badge&logo=readme&logoColor=38BDF8" alt="Portfólio" />
   </a>
-  <a href="https://prophetique.com.br">
-    <img src="https://img.shields.io/badge/Portfolio-0a192f?style=for-the-badge&logo=safari&logoColor=d4af37"/>
+  <a href="https://github.com/herisonaraujo/metodologia-dev">
+    <img src="https://img.shields.io/badge/Metodologia_DEV-0B1120?style=for-the-badge&logo=github&logoColor=38BDF8" alt="Metodologia Dev" />
   </a>
   <a href="mailto:herison@prophetique.com.br">
-    <img src="https://img.shields.io/badge/Email-0a192f?style=for-the-badge&logo=gmail&logoColor=d4af37"/>
+    <img src="https://img.shields.io/badge/E--mail-0B1120?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="E-mail" />
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=herisonaraujo&color=d4af37&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
-
-<br/>
-
-<!-- QUOTE -->
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=18&duration=4000&pause=2000&color=D4AF37&center=true&vCenter=true&multiline=false&width=600&height=30&lines=Architecture+first%2C+code+second.+Excellence+in+every+delivery." />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&duration=3500&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&height=34&lines=IA+aplicada+com+contexto%2C+documenta%C3%A7%C3%A3o+e+execu%C3%A7%C3%A3o.;Produtos+digitais+oper%C3%A1veis%2C+n%C3%A3o+apenas+interfaces.;Automa%C3%A7%C3%A3o%2C+APIs%2C+cloud+e+agentes+inteligentes.;Da+opera%C3%A7%C3%A3o+real+para+solu%C3%A7%C3%B5es+digitais+funcionais." alt="IA aplicada, produtos digitais operáveis, automação, APIs, cloud e agentes inteligentes" />
 
 </div>
 
-<br/>
+---
 
-<!-- DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+## Sobre
 
-<br/>
+Sou um profissional híbrido entre **gestão, tecnologia, IA, automação e produtos digitais**.
 
-<!-- ABOUT -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20in%20Tuxedo.png" alt="Professional" width="35" height="35" /> &nbsp;About Me
+Atuo na criação de soluções de ponta a ponta, conectando **documentação técnica, APIs, cloud, agentes de IA, painéis administrativos e fluxos operacionais** para transformar demandas em produtos digitais utilizáveis.
 
-<img align="right" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+Meu foco atual está em:
 
-<p align="left">
-  <img src="https://img.shields.io/badge/✓_Sites_em_Produção-0a192f?style=flat-square&labelColor=d4af37"/>
-  <img src="https://img.shields.io/badge/✓_Clientes_Reais-0a192f?style=flat-square&labelColor=d4af37"/>
-  <img src="https://img.shields.io/badge/✓_Deploy_Completo-0a192f?style=flat-square&labelColor=d4af37"/>
-</p>
+* construir plataformas web com operação real;
+* criar agentes de IA com contexto, regras e documentação;
+* integrar APIs, automações e ferramentas open source;
+* organizar processos, informações e bases de conhecimento;
+* desenvolver produtos digitais com clareza, rastreabilidade e melhoria contínua.
 
-Full-Stack Developer with **real projects in production** serving corporate clients. I build complete solutions from Figma to deploy — frontend, backend, database, infrastructure.
+---
 
-**What I Deliver:**
-- 🚀 &nbsp;End-to-end web applications
-- 💳 &nbsp;Payment integrations (PIX, banking APIs)
-- 🌐 &nbsp;Multi-language sites (i18n, RTL)
-- ☁️ &nbsp;Full deploy (VPS, DNS, Cloudflare, Email)
+## O que eu construo
 
-<br clear="right"/>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Produtos digitais</h3>
+      <p>Plataformas web, e-commerce, delivery, painéis administrativos, sistemas operacionais internos e experiências digitais com foco em uso real.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>IA e automação</h3>
+      <p>Agentes especialistas, prompts, bases de conhecimento, integrações com APIs, automações e modelos locais para reduzir retrabalho e aumentar consistência.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Operação técnica</h3>
+      <p>Cloud, DNS, VPS, Cloudflare, roteamento de e-mails, documentação, LGPD, regras de negócio, deploy e melhoria contínua.</p>
+    </td>
+  </tr>
+</table>
 
-<!-- DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-<br/>
+## Projetos em destaque
 
-<!-- TECH STACK -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" alt="Gem" width="35" height="35" /> &nbsp;Tech Stack
+<div align="center">
+
+### Metodologia Dev
+
+<a href="https://github.com/herisonaraujo/metodologia-dev">
+  <img src="https://img.shields.io/badge/ABRIR_REPOSIT%C3%93RIO-metodologia--dev-38BDF8?style=for-the-badge&logo=github&logoColor=0B1120" alt="Abrir Metodologia Dev" />
+</a>
+
+Metodologia de entrega com **IA, documentação, arquitetura, automação e produtos digitais operáveis**.
+
+<img src="https://img.shields.io/badge/IA-0B1120?style=flat-square&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-0B1120?style=flat-square&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/Automa%C3%A7%C3%A3o-0B1120?style=flat-square&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/Arquitetura-0B1120?style=flat-square&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/Opera%C3%A7%C3%A3o-0B1120?style=flat-square&logoColor=38BDF8" />
+
+<br/><br/>
+
+---
+
+### Bruttus
+
+<a href="https://bruttus.app.br">
+  <img src="https://img.shields.io/badge/VISITAR-bruttus.app.br-38BDF8?style=for-the-badge&logo=safari&logoColor=0B1120" alt="Bruttus" />
+</a>
+
+Plataforma de delivery com **painel administrativo, controle de pedidos, estoque, Pix, motoboy e rastreamento por mapa**.
+
+<img src="https://img.shields.io/badge/Delivery-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Painel_Admin-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Pix-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Mapa-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Opera%C3%A7%C3%A3o_Real-0B1120?style=flat-square" />
+
+<br/><br/>
+
+---
+
+### Japa House
+
+<a href="https://japahouse.com.br">
+  <img src="https://img.shields.io/badge/VISITAR-japahouse.com.br-38BDF8?style=for-the-badge&logo=safari&logoColor=0B1120" alt="Japa House" />
+</a>
+
+Projeto de delivery gastronômico com **cardápio digital, pedidos, estrutura operacional, status de entrega e rastreamento**.
+
+<img src="https://img.shields.io/badge/Card%C3%A1pio_Digital-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Delivery-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/UX-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Opera%C3%A7%C3%A3o-0B1120?style=flat-square" />
+
+<br/><br/>
+
+---
+
+### Shoes For You
+
+<a href="https://www.shoesforyou.com.br">
+  <img src="https://img.shields.io/badge/VISITAR-shoesforyou.com.br-38BDF8?style=for-the-badge&logo=safari&logoColor=0B1120" alt="Shoes For You" />
+</a>
+
+E-commerce de calçados com **catálogo, pedidos, operação comercial, integração Pix, gestão interna e emissão de NF quando aplicável**.
+
+<img src="https://img.shields.io/badge/E--commerce-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Cat%C3%A1logo-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Estoque-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Pagamentos-0B1120?style=flat-square" />
+
+<br/><br/>
+
+---
+
+### Vitrus
+
+<a href="https://vitrusmc.com.br">
+  <img src="https://img.shields.io/badge/VISITAR-vitrusmc.com.br-38BDF8?style=for-the-badge&logo=safari&logoColor=0B1120" alt="Vitrus" />
+</a>
+
+Produto SaaS em evolução para **comunicação visual, gestão de telas digitais, painel web e operação remota de conteúdo**.
+
+<img src="https://img.shields.io/badge/SaaS-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Digital_Signage-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Painel_Web-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Produto_Pr%C3%B3prio-0B1120?style=flat-square" />
+
+<br/><br/>
+
+---
+
+### Bemfica Marchado
+
+<a href="https://bemficamarchado.com">
+  <img src="https://img.shields.io/badge/VISITAR-bemficamarchado.com-38BDF8?style=for-the-badge&logo=safari&logoColor=0B1120" alt="Bemfica Marchado" />
+</a>
+
+Site multilíngue com foco em **presença digital internacional, i18n, RTL, organização de conteúdo e front-end responsivo**.
+
+<img src="https://img.shields.io/badge/i18n-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/RTL-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Multil%C3%ADngue-0B1120?style=flat-square" />
+<img src="https://img.shields.io/badge/Front--end-0B1120?style=flat-square" />
+
+</div>
+
+---
+
+## Stack e ferramentas
 
 <div align="center">
 
 <table>
 <tr>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-  </a>
+  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60" />
   <br><strong>React</strong>
 </td>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
-  </a>
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="60" height="60" />
   <br><strong>TypeScript</strong>
 </td>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="65" height="65" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="60" height="60" />
   <br><strong>Next.js</strong>
 </td>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="65" height="65" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="60" height="60" />
   <br><strong>Node.js</strong>
 </td>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" width="65" height="65" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" width="60" height="60" />
   <br><strong>NestJS</strong>
 </td>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-  </a>
-  <br><strong>Python</strong>
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60" />
+  <br><strong>Docker</strong>
 </td>
 </tr>
 <tr>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-  </a>
-  <br><strong>Docker</strong>
-</td>
-<td align="center" width="96">
-  <a href="#tech">
-    <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
-  </a>
-  <br><strong>AWS</strong>
-</td>
-<td align="center" width="96">
-  <a href="#tech">
-    <img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" width="65" height="65" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=postgresql" alt="PostgreSQL" width="60" height="60" />
   <br><strong>PostgreSQL</strong>
 </td>
 <td align="center" width="96">
-  <a href="#tech">
-    <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="65" height="65" />
-  </a>
-  <br><strong>MongoDB</strong>
-</td>
-<td align="center" width="96">
-  <a href="#tech">
-    <img src="https://skillicons.dev/icons?i=redis" alt="Redis" width="65" height="65" />
-  </a>
-  <br><strong>Redis</strong>
-</td>
-<td align="center" width="96">
-  <a href="#tech">
-    <img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" width="65" height="65" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL" width="60" height="60" />
   <br><strong>GraphQL</strong>
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" width="60" height="60" />
+  <br><strong>Cloudflare</strong>
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="60" height="60" />
+  <br><strong>GitHub</strong>
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=figma" alt="Figma" width="60" height="60" />
+  <br><strong>Figma</strong>
+</td>
+<td align="center" width="96">
+  <img src="https://img.shields.io/badge/IA-111827?style=for-the-badge&logo=openai&logoColor=38BDF8" alt="IA" />
+  <br><strong>IA</strong>
 </td>
 </tr>
 </table>
 
 </div>
 
-<br/>
+---
 
-<!-- DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+## Áreas de atuação
 
-<br/>
+| Área                        | Atuação                                                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **IA e automação**          | Agentes de IA, LLMOps, engenharia de prompt, OpenAI API, Claude API, modelos locais e automações.        |
+| **Produtos digitais**       | Plataformas web, e-commerce, delivery, SaaS, painéis administrativos e fluxos operacionais.              |
+| **APIs e integrações**      | Integração de sistemas, documentação de APIs, pagamentos, mapas, e-mails e automações.                   |
+| **Cloud e infraestrutura**  | DNS, VPS, Cloudflare, deploy, SSL, roteamento de e-mails e ambientes web.                                |
+| **Documentação e operação** | Regras de negócio, bases de conhecimento, handoff, checklists, processos e melhoria contínua.            |
+| **Governança e LGPD**       | Organização de informação sensível, permissões, regras de uso e apoio a práticas responsáveis com dados. |
 
-<!-- FEATURED PROJECTS -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crown.png" alt="Crown" width="35" height="35" /> &nbsp;Featured Projects
+---
 
-<div align="center">
+## Metodologia Dev
 
-<!-- PROJECT 1 -->
-<a href="https://prophetique.com.br">
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━-0a192f?style=for-the-badge"/>
-</a>
+Meu repositório principal documenta uma metodologia própria para transformar demandas digitais em produtos operáveis:
 
-<br/>
+```mermaid
+flowchart LR
+    A[Contexto] --> B[Documentação]
+    B --> C[Arquitetura]
+    C --> D[Desenvolvimento]
+    D --> E[Operação]
+    E --> F[Melhoria contínua]
+```
 
-### ✦ &nbsp;PROPHETIQUE
+Acesse: [github.com/herisonaraujo/metodologia-dev](https://github.com/herisonaraujo/metodologia-dev)
 
-<a href="https://prophetique.com.br">
-  <img src="https://img.shields.io/badge/VISIT_SITE-prophetique.com.br-d4af37?style=for-the-badge&logoColor=white"/>
-</a>
+---
 
-**Enterprise Tech Consulting** — Specialized in Fintech, Cloud Architecture & AI Solutions
-
-<img src="https://img.shields.io/badge/Next.js-0a192f?style=flat-square&logo=next.js&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/TypeScript-0a192f?style=flat-square&logo=typescript&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/Tailwind-0a192f?style=flat-square&logo=tailwind-css&logoColor=d4af37"/>
-
-<br/><br/>
-
-<!-- PROJECT 2 -->
-<a href="https://reflorestamentobrasil.com.br">
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━-0a192f?style=for-the-badge"/>
-</a>
-
-<br/>
-
-### ✦ &nbsp;REFLORESTAMENTO BRASIL
-
-<a href="https://reflorestamentobrasil.com.br">
-  <img src="https://img.shields.io/badge/VISIT_SITE-reflorestamentobrasil.com.br-d4af37?style=for-the-badge&logoColor=white"/>
-</a>
-
-**Environmental E-commerce** — Native seedlings platform with integrated quotation system
-
-<img src="https://img.shields.io/badge/Next.js-0a192f?style=flat-square&logo=next.js&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/React-0a192f?style=flat-square&logo=react&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/WhatsApp_API-0a192f?style=flat-square&logo=whatsapp&logoColor=d4af37"/>
-
-<br/><br/>
-
-<!-- PROJECT 3 -->
-<a href="https://bemficamarchado.com">
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━-0a192f?style=for-the-badge"/>
-</a>
-
-<br/>
-
-### ✦ &nbsp;BEMFICA MARCHADO
-
-<a href="https://bemficamarchado.com">
-  <img src="https://img.shields.io/badge/VISIT_SITE-bemficamarchado.com-d4af37?style=for-the-badge&logoColor=white"/>
-</a>
-
-**Global Mining Export** — Multilingual platform with **8 languages** for international granite trade
-
-<p>
-<img src="https://img.shields.io/badge/🇧🇷-0a192f?style=flat-square"/>
-<img src="https://img.shields.io/badge/🇺🇸-0a192f?style=flat-square"/>
-<img src="https://img.shields.io/badge/🇪🇸-0a192f?style=flat-square"/>
-<img src="https://img.shields.io/badge/🇫🇷-0a192f?style=flat-square"/>
-<img src="https://img.shields.io/badge/🇮🇹-0a192f?style=flat-square"/>
-<img src="https://img.shields.io/badge/🇸🇦-0a192f?style=flat-square"/>
-<img src="https://img.shields.io/badge/🇷🇺-0a192f?style=flat-square"/>
-<img src="https://img.shields.io/badge/🇨🇳-0a192f?style=flat-square"/>
-</p>
-
-<img src="https://img.shields.io/badge/i18n_Advanced-0a192f?style=flat-square&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/RTL_Support-0a192f?style=flat-square&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/Global_SEO-0a192f?style=flat-square&logoColor=d4af37"/>
-
-<br/><br/>
-
-<!-- PROJECT 4 -->
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━-0a192f?style=for-the-badge"/>
-
-<br/>
-
-### ✦ &nbsp;ENTERPRISE SOLUTIONS
-
-<img src="https://img.shields.io/badge/🔒_PRIVATE-Enterprise_Systems-0a192f?style=for-the-badge&logoColor=d4af37"/>
-
-**Fintech & ERP** — Payment systems, banking integrations & financial management platforms
-
-<img src="https://img.shields.io/badge/NestJS-0a192f?style=flat-square&logo=nestjs&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/PostgreSQL-0a192f?style=flat-square&logo=postgresql&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/Docker-0a192f?style=flat-square&logo=docker&logoColor=d4af37"/>
-<img src="https://img.shields.io/badge/Microservices-0a192f?style=flat-square&logoColor=d4af37"/>
-
-</div>
-
-<br/>
-
-<!-- DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-<!-- EXPERTISE -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="35" height="35" /> &nbsp;Areas of Expertise
+## Contato
 
 <div align="center">
-
-| <img src="https://img.shields.io/badge/●-d4af37?style=flat-square"/> | Domain | Expertise |
-|:---:|:---|:---|
-| 💻 | **Full-Stack Development** | React, Next.js, Node.js, NestJS, TypeScript, APIs |
-| 💳 | **Fintech Solutions** | Payment Systems, Banking Integrations, PIX |
-| ☁️ | **Cloud & DevOps** | AWS, Docker, CI/CD, Cloudflare |
-| 🏗️ | **Architecture** | Clean Architecture, Microservices, Event-Driven |
-| 🤖 | **AI Integration** | OpenAI, Claude API, LLM Applications |
-| 🌍 | **Internationalization** | i18n, RTL Support, Multi-language Systems |
-
-</div>
-
-<br/>
-
-<!-- DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-<!-- CONTACT -->
-## 🤝 &nbsp;Let's Connect
-
-<div align="center">
-
-<br/>
 
 <a href="https://wa.me/5532999735469?text=Ol%C3%A1%20Herison%2C%20vi%20seu%20GitHub%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade">
-  <img src="https://img.shields.io/badge/OPEN_TO_REMOTE_OPPORTUNITIES-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dispon%C3%ADvel_para_oportunidades-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
 </a>
 
 <br/><br/>
 
-<a href="https://linkedin.com/in/herisonaraujo">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-d4af37?style=for-the-badge&logo=linkedin&logoColor=0a192f"/>
+<a href="https://www.linkedin.com/in/herison-araujo">
+  <img src="https://img.shields.io/badge/LinkedIn-38BDF8?style=for-the-badge&logo=linkedin&logoColor=0B1120" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="mailto:herison@prophetique.com.br">
-  <img src="https://img.shields.io/badge/Send_Email-d4af37?style=for-the-badge&logo=gmail&logoColor=0a192f"/>
+  <img src="https://img.shields.io/badge/E--mail-38BDF8?style=for-the-badge&logo=gmail&logoColor=0B1120" alt="E-mail" />
 </a>
 &nbsp;
-<a href="https://prophetique.com.br">
-  <img src="https://img.shields.io/badge/Visit_Portfolio-d4af37?style=for-the-badge&logo=safari&logoColor=0a192f"/>
+<a href="https://herisonaraujo.github.io">
+  <img src="https://img.shields.io/badge/Portf%C3%B3lio-38BDF8?style=for-the-badge&logo=safari&logoColor=0B1120" alt="Portfólio" />
 </a>
-
-<br/><br/>
 
 </div>
 
-<!-- ELEGANT FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a192f,50:1a365d,100:0a192f&height=120&section=footer"/>
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,45:1E3A8A,100:0B1120&height=110&section=footer" alt="Footer" />
+
+<strong>IA aplicada, documentação clara e produtos digitais operáveis.</strong><br/> <sub>Portfólio profissional de Herison Araújo.</sub>
+
+</div>
