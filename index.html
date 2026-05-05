@@ -1,67 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Herison da Costa Araujo - CV</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herison Araújo | IA, Automação e Produtos Digitais</title>
 
   <!-- SEO & Open Graph -->
-  <meta name="description" content="Full-Stack Developer | React, Next.js, Node.js, TypeScript, PostgreSQL | Projetos em produção para clientes reais">
-  <meta name="author" content="Herison da Costa Araujo">
+  <meta name="description" content="Currículo interativo de Herison Araújo: IA aplicada, automação, agentes inteligentes, APIs, cloud, documentação técnica, produtos digitais e operações técnicas." />
+  <meta name="author" content="Herison Araújo" />
+  <meta name="theme-color" content="#0B1120" />
 
-  <!-- Open Graph (LinkedIn, Facebook, WhatsApp) -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://herisonaraujo.github.io">
-  <meta property="og:title" content="Herison da Costa Araujo - Full-Stack Developer">
-  <meta property="og:description" content="CV Interativo | React, Next.js, Node.js, TypeScript | Projetos em produção">
-  <meta property="og:image" content="https://herisonaraujo.github.io/preview.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://herisonaraujo.github.io" />
+  <meta property="og:title" content="Herison Araújo | IA, Automação e Produtos Digitais" />
+  <meta property="og:description" content="Currículo interativo | IA aplicada, automação, agentes inteligentes, APIs, cloud, documentação técnica e produtos digitais." />
+  <meta property="og:image" content="https://herisonaraujo.github.io/preview.png" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Herison da Costa Araujo - Full-Stack Developer">
-  <meta name="twitter:description" content="CV Interativo | React, Next.js, Node.js, TypeScript | Projetos em produção">
-  <meta name="twitter:image" content="https://herisonaraujo.github.io/preview.png">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Herison Araújo | IA, Automação e Produtos Digitais" />
+  <meta name="twitter:description" content="Currículo interativo | IA aplicada, automação, agentes inteligentes, APIs, cloud e produtos digitais." />
+  <meta name="twitter:image" content="https://herisonaraujo.github.io/preview.png" />
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
   <style>
-    * { font-family: 'Inter', sans-serif; }
+    * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
     @page { size: A4; margin: 0; }
-    @media print {
-      body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-      .no-print { display: none !important; }
-      #resume-content { transform: none !important; }
+
+    :root {
+      --navy: #0B1120;
+      --navy-2: #0F172A;
+      --blue: #38BDF8;
+      --gold: #D4AF37;
+      --muted: #64748B;
+      --line: #CBD5E1;
     }
+
+    body {
+      background:
+        radial-gradient(circle at top left, rgba(56,189,248,.12), transparent 30rem),
+        radial-gradient(circle at top right, rgba(30,58,138,.16), transparent 30rem),
+        #f5f5f4;
+    }
+
     #resume-content {
       width: 794px;
       height: 1123px;
-      background: white;
+      background: #ffffff;
       position: relative;
       overflow: hidden;
       transform-origin: top center;
     }
+
     .section-title {
       font-size: 9px;
-      font-weight: 600;
+      font-weight: 800;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #0a192f;
+      color: var(--navy);
       padding-bottom: 6px;
       margin-bottom: 10px;
-      border-bottom: 1.5px solid #d4af37;
+      border-bottom: 1.5px solid var(--blue);
     }
-    /* Mobile responsiveness - scale down the CV */
+
+    .soft-title {
+      font-size: 8px;
+      font-weight: 800;
+      color: var(--navy);
+      text-transform: uppercase;
+      letter-spacing: .8px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      height: 15px;
+      padding: 0 6px;
+      border-radius: 999px;
+      background: #E0F2FE;
+      color: #075985;
+      font-size: 6px;
+      font-weight: 800;
+      letter-spacing: .2px;
+      white-space: nowrap;
+    }
+
+    .project-card {
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      border-radius: 9px;
+      padding: 10px;
+      min-height: 78px;
+      transition: .2s ease;
+    }
+
+    .project-card:hover {
+      background: #F1F5F9;
+      border-color: #38BDF8;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(15,23,42,.08);
+    }
+
+    .bullet-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 999px;
+      background: var(--blue);
+      flex: 0 0 auto;
+      margin-top: 4px;
+    }
+
+    .header-glow {
+      background:
+        radial-gradient(circle at 18% 25%, rgba(56,189,248,.22), transparent 14rem),
+        radial-gradient(circle at 88% 8%, rgba(59,130,246,.2), transparent 18rem),
+        linear-gradient(135deg, #0B1120 0%, #0F172A 52%, #111827 100%);
+    }
+
+    .wave {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 28px;
+      opacity: .22;
+      background: linear-gradient(90deg, transparent, rgba(56,189,248,.75), transparent);
+      clip-path: polygon(0 55%, 12% 45%, 25% 55%, 38% 42%, 51% 52%, 64% 39%, 77% 51%, 88% 43%, 100% 55%, 100% 100%, 0 100%);
+    }
+
+    .no-underline { text-decoration: none; }
+
+    @media print {
+      body { print-color-adjust: exact; -webkit-print-color-adjust: exact; background: #fff; }
+      .no-print { display: none !important; }
+      #resume-content { transform: none !important; box-shadow: none !important; }
+      a { color: inherit; text-decoration: none; }
+    }
+
     @media (max-width: 830px) {
-      body {
-        padding: 16px;
-        min-height: auto;
-      }
+      body { padding: 16px; min-height: auto; align-items: flex-start; }
       #resume-content {
         transform: scale(calc((100vw - 32px) / 794));
         margin-bottom: calc((1123px * ((100vw - 32px) / 794)) - 1123px);
       }
     }
-    /* Extra small screens */
+
     @media (max-width: 400px) {
       body { padding: 8px; }
       #resume-content {
@@ -71,10 +156,11 @@
     }
   </style>
 </head>
-<body class="bg-stone-100 flex items-center justify-center min-h-screen py-8">
+
+<body class="flex items-center justify-center min-h-screen py-8">
 
   <!-- Download Button -->
-  <button onclick="downloadPDF()" class="no-print fixed top-4 right-4 sm:top-6 sm:right-6 bg-[#0a192f] hover:bg-[#1a365d] text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg shadow-xl flex items-center gap-2 sm:gap-3 transition-all hover:scale-105 z-50 text-sm sm:text-base">
+  <button onclick="downloadPDF()" class="no-print fixed top-4 right-4 sm:top-6 sm:right-6 bg-[#0B1120] hover:bg-[#1E3A8A] text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg shadow-xl flex items-center gap-2 sm:gap-3 transition-all hover:scale-105 z-50 text-sm sm:text-base">
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="sm:w-5 sm:h-5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
     <span class="font-medium hidden sm:inline">Baixar PDF</span>
     <span class="font-medium sm:hidden">PDF</span>
@@ -82,51 +168,52 @@
 
   <div id="resume-content" class="shadow-2xl">
 
-    <!-- ═══════════════════════════════════════════════════════════════ -->
     <!-- HEADER -->
-    <!-- ═══════════════════════════════════════════════════════════════ -->
-    <header class="bg-[#0a192f] text-white px-10 py-6">
-      <div class="flex justify-between items-end">
+    <header class="header-glow text-white px-10 pt-7 pb-8 relative overflow-hidden">
+      <div class="flex justify-between items-end relative z-10">
         <div>
-          <h1 class="text-[28px] font-light tracking-wide">HERISON <span class="font-semibold">DA COSTA ARAUJO</span></h1>
-          <p class="text-[#d4af37] text-[13px] font-medium tracking-widest mt-1">FULL-STACK DEVELOPER</p>
+          <h1 class="text-[28px] font-light tracking-wide leading-tight">HERISON <span class="font-extrabold">ARAÚJO</span></h1>
+          <p class="text-[#38BDF8] text-[12px] font-bold tracking-[2px] mt-1 uppercase">IA, Automação e Produtos Digitais</p>
+          <p class="text-[8px] text-slate-300 mt-2 max-w-[455px] leading-relaxed">
+            Agentes inteligentes · APIs · Cloud · Documentação técnica · Painéis administrativos · Operações digitais
+          </p>
         </div>
-        <div class="text-right text-[9px] text-gray-300 leading-loose">
-          <p>herison@prophetique.com.br</p>
-          <p>(32) 99973-5469</p>
-          <p>Juiz de Fora, MG</p>
+        <div class="text-right text-[8px] text-slate-300 leading-loose">
+          <p><a href="mailto:herison@prophetique.com.br">herison@prophetique.com.br</a></p>
+          <p><a href="tel:+5532999735469">(32) 99973-5469</a></p>
+          <p>Minas Gerais, Brasil</p>
         </div>
       </div>
-      <div class="flex gap-8 mt-4 text-[8px] text-gray-400 border-t border-gray-700 pt-3">
-        <span>linkedin.com/in/herison-araujo</span>
-        <span>github.com/herisonaraujo</span>
-        <span>prophetique.com.br</span>
+      <div class="flex gap-7 mt-4 text-[7.5px] text-slate-400 border-t border-slate-700 pt-3 relative z-10">
+        <a href="https://www.linkedin.com/in/herison-araujo" target="_blank">linkedin.com/in/herison-araujo</a>
+        <a href="https://github.com/herisonaraujo" target="_blank">github.com/herisonaraujo</a>
+        <a href="https://herisonaraujo.github.io" target="_blank">herisonaraujo.github.io</a>
+        <a href="https://github.com/herisonaraujo/metodologia-dev" target="_blank">metodologia-dev</a>
       </div>
+      <div class="wave"></div>
     </header>
 
-    <!-- ═══════════════════════════════════════════════════════════════ -->
     <!-- CONTENT -->
-    <!-- ═══════════════════════════════════════════════════════════════ -->
     <main class="px-10 py-6">
 
-      <!-- RESUMO -->
+      <!-- PERFIL -->
       <section class="mb-5">
         <h2 class="section-title">Perfil</h2>
-        <p class="text-[9px] text-gray-600 leading-relaxed">
-          Desenvolvedor Full-Stack com projetos em produção atendendo clientes corporativos. Construo soluções completas do design ao deploy: frontend, backend, banco de dados e infraestrutura. Background em negócios que permite entender o problema real do cliente.
+        <p class="text-[8.6px] text-slate-600 leading-relaxed">
+          Profissional híbrido entre gestão, tecnologia, IA, automação e produtos digitais. Desde 2023, desenvolvo soluções digitais de ponta a ponta, incluindo plataformas web, painéis administrativos, APIs, cloud, roteamento de e-mails, agentes de IA, documentação técnica e fluxos operacionais. Minha atuação conecta visão de negócio, organização de processos e execução técnica para transformar demandas em produtos digitais operáveis.
         </p>
       </section>
 
-      <!-- SKILLS -->
+      <!-- COMPETÊNCIAS -->
       <section class="mb-5">
-        <h2 class="section-title">Competências Técnicas</h2>
-        <div class="flex flex-wrap gap-x-8 gap-y-2 text-[8px]">
-          <div><span class="font-semibold text-[#0a192f]">Frontend</span> <span class="text-gray-400">—</span> <span class="text-gray-600">React, Next.js, TypeScript, Tailwind, Framer</span></div>
-          <div><span class="font-semibold text-[#0a192f]">Backend</span> <span class="text-gray-400">—</span> <span class="text-gray-600">Node.js, NestJS, REST APIs, GraphQL</span></div>
-          <div><span class="font-semibold text-[#0a192f]">Database</span> <span class="text-gray-400">—</span> <span class="text-gray-600">PostgreSQL, MongoDB, Redis, Prisma</span></div>
-          <div><span class="font-semibold text-[#0a192f]">DevOps</span> <span class="text-gray-400">—</span> <span class="text-gray-600">Docker, AWS, Vercel, Cloudflare, VPS</span></div>
-          <div><span class="font-semibold text-[#0a192f]">AI</span> <span class="text-gray-400">—</span> <span class="text-gray-600">OpenAI API, Claude API, AI Agents</span></div>
-          <div><span class="font-semibold text-[#0a192f]">Design</span> <span class="text-gray-400">—</span> <span class="text-gray-600">Figma, UI/UX, Git/GitHub</span></div>
+        <h2 class="section-title">Competências Técnicas e Operacionais</h2>
+        <div class="grid grid-cols-2 gap-x-7 gap-y-2 text-[7.5px]">
+          <div><span class="font-bold text-[#0B1120]">IA e Agentes</span> <span class="text-slate-400">—</span> <span class="text-slate-600">OpenAI API, Claude API, agentes especializados, LLMOps, prompts</span></div>
+          <div><span class="font-bold text-[#0B1120]">Automação</span> <span class="text-slate-400">—</span> <span class="text-slate-600">APIs, n8n, Make, ferramentas open source, fluxos operacionais</span></div>
+          <div><span class="font-bold text-[#0B1120]">Produto Web</span> <span class="text-slate-400">—</span> <span class="text-slate-600">React, Next.js, TypeScript, Node.js, NestJS, Tailwind</span></div>
+          <div><span class="font-bold text-[#0B1120]">Dados e APIs</span> <span class="text-slate-400">—</span> <span class="text-slate-600">PostgreSQL, REST APIs, GraphQL, documentação e integrações</span></div>
+          <div><span class="font-bold text-[#0B1120]">Cloud e Infra</span> <span class="text-slate-400">—</span> <span class="text-slate-600">Cloudflare, DNS, VPS, deploy, SSL, email routing</span></div>
+          <div><span class="font-bold text-[#0B1120]">Operação</span> <span class="text-slate-400">—</span> <span class="text-slate-600">regras de negócio, documentação, LGPD, melhoria contínua</span></div>
         </div>
       </section>
 
@@ -137,103 +224,130 @@
         <div class="mb-4">
           <div class="flex justify-between items-baseline mb-1">
             <div class="flex items-baseline gap-2">
-              <h3 class="text-[10px] font-semibold text-[#0a192f]">Full-Stack Developer</h3>
-              <span class="text-[8px] text-gray-400">Prophetique · Remoto</span>
+              <h3 class="text-[10px] font-extrabold text-[#0B1120]">Fundador Técnico | IA, Automação e Produtos Digitais</h3>
+              <span class="text-[7.5px] text-slate-400">Prophetique · Remoto</span>
             </div>
-            <span class="text-[8px] text-gray-400">2024 — Atual</span>
+            <span class="text-[7.5px] text-slate-400">2023 — Atual</span>
           </div>
-          <ul class="text-[8px] text-gray-600 space-y-1 ml-0">
-            <li>Desenvolvimento de aplicações web completas para clientes B2B com integração de pagamentos</li>
-            <li>Deploy completo de projetos: VPS, DNS, SSL, email routing</li>
-            <li>Criação de plataformas multilíngue com suporte a 8 idiomas (i18n + RTL)</li>
+          <ul class="text-[7.8px] text-slate-600 space-y-1 leading-relaxed">
+            <li>Criação de soluções digitais com IA, automação, documentação técnica, APIs, cloud, produtos web e painéis administrativos.</li>
+            <li>Desenvolvimento de plataformas com controle de pedidos, estoque, Pix, gestão operacional, atualização em tempo real e rastreamento por mapa.</li>
+            <li>Estruturação de agentes de IA, bases de conhecimento, regras de uso, prompts, integrações e automações para reduzir retrabalho.</li>
+            <li>Configuração de domínios, DNS, Cloudflare, VPS, SSL, roteamento de e-mails e publicação de projetos web.</li>
           </ul>
-          <p class="text-[7px] text-[#d4af37] mt-1.5">prophetique.com.br · bemficamarchado.com · reflorestamentobrasil.com.br</p>
+          <p class="text-[6.8px] text-[#0284C7] mt-1.5">bruttus.app.br · japahouse.com.br · shoesforyou.com.br · vitrusmc.com.br · bemficamarchado.com</p>
         </div>
 
         <div class="mb-4">
           <div class="flex justify-between items-baseline mb-1">
             <div class="flex items-baseline gap-2">
-              <h3 class="text-[10px] font-semibold text-[#0a192f]">Desenvolvedor & Líder Técnico</h3>
-              <span class="text-[8px] text-gray-400">GEAD Corporation</span>
+              <h3 class="text-[10px] font-bold text-[#0B1120]">Especialista Administrativo</h3>
+              <span class="text-[7.5px] text-slate-400">VCL Paisagismo</span>
             </div>
-            <span class="text-[8px] text-gray-400">2024 — Atual</span>
+            <span class="text-[7.5px] text-slate-400">2022 — 2023</span>
           </div>
-          <ul class="text-[8px] text-gray-600 space-y-1">
-            <li>Transformação digital de empresa tradicional do setor financeiro (38 anos de mercado)</li>
-            <li>Desenvolvimento de sistemas internos e integração de ferramentas de IA</li>
+          <ul class="text-[7.8px] text-slate-600 space-y-1 leading-relaxed">
+            <li>Apoio direto à gestão em processos administrativos, licitações, negociações, ERP e organização operacional.</li>
+            <li>Organização de documentos, controle de informações, acompanhamento de pendências e suporte à tomada de decisão.</li>
           </ul>
         </div>
 
         <div>
           <div class="flex justify-between items-baseline mb-1">
-            <h3 class="text-[10px] font-semibold text-[#0a192f]">Início em Tecnologia</h3>
-            <span class="text-[8px] text-gray-400">Ago 2023</span>
+            <div class="flex items-baseline gap-2">
+              <h3 class="text-[10px] font-bold text-[#0B1120]">Gestor de Operações</h3>
+              <span class="text-[7.5px] text-slate-400">HS Construtora</span>
+            </div>
+            <span class="text-[7.5px] text-slate-400">2018 — 2020</span>
           </div>
-          <p class="text-[8px] text-gray-600">Transição de carreira. Metodologia autodidata. De zero a projetos em produção em 12 meses.</p>
+          <p class="text-[7.8px] text-slate-600 leading-relaxed">Liderança de equipe operacional, planejamento de atividades, fornecedores, custos, prazos, riscos, prioridades, contratos e controles para aumentar organização e previsibilidade.</p>
         </div>
       </section>
 
       <!-- PROJETOS -->
       <section class="mb-5">
-        <h2 class="section-title">Projetos em Produção</h2>
-        <div class="grid grid-cols-4 gap-3">
-          <a href="https://prophetique.com.br" target="_blank" class="bg-stone-50 p-3 rounded hover:bg-stone-100 hover:shadow-sm transition-all group block no-underline">
-            <div class="flex items-center justify-between mb-1">
-              <h3 class="text-[8px] font-semibold text-[#0a192f]">Prophetique</h3>
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-gray-400 group-hover:text-[#d4af37] transition-colors"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        <h2 class="section-title">Projetos e Produtos Digitais</h2>
+        <div class="grid grid-cols-3 gap-3">
+          <a href="https://github.com/herisonaraujo/metodologia-dev" target="_blank" class="project-card group block no-underline">
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="text-[8px] font-extrabold text-[#0B1120]">Metodologia Dev</h3>
+              <span class="text-[8px] text-[#0284C7]">↗</span>
             </div>
-            <p class="text-[7px] text-gray-500 leading-relaxed">Consultoria tech. SEO otimizado.</p>
-            <p class="text-[6px] text-gray-400 mt-1.5">Next.js · TypeScript · Vercel</p>
+            <p class="text-[6.8px] text-slate-500 leading-relaxed">IA, documentação, arquitetura, automação e entrega operacional.</p>
+            <div class="flex flex-wrap gap-1 mt-2"><span class="tag">IA</span><span class="tag">Docs</span><span class="tag">Ops</span></div>
           </a>
-          <a href="https://bemficamarchado.com" target="_blank" class="bg-stone-50 p-3 rounded hover:bg-stone-100 hover:shadow-sm transition-all group block no-underline">
-            <div class="flex items-center justify-between mb-1">
-              <h3 class="text-[8px] font-semibold text-[#0a192f]">Bemfica Marchado</h3>
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-gray-400 group-hover:text-[#d4af37] transition-colors"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+          <a href="https://bruttus.app.br" target="_blank" class="project-card group block no-underline">
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="text-[8px] font-extrabold text-[#0B1120]">Bruttus</h3>
+              <span class="text-[8px] text-[#0284C7]">↗</span>
             </div>
-            <p class="text-[7px] text-gray-500 leading-relaxed">Exportação global. 8 idiomas.</p>
-            <p class="text-[6px] text-gray-400 mt-1.5">Next.js · i18n · RTL</p>
+            <p class="text-[6.8px] text-slate-500 leading-relaxed">Delivery com painel, pedidos, Pix, estoque, motoboy e mapa.</p>
+            <div class="flex flex-wrap gap-1 mt-2"><span class="tag">Delivery</span><span class="tag">Pix</span><span class="tag">Mapa</span></div>
           </a>
-          <a href="https://reflorestamentobrasil.com.br" target="_blank" class="bg-stone-50 p-3 rounded hover:bg-stone-100 hover:shadow-sm transition-all group block no-underline">
-            <div class="flex items-center justify-between mb-1">
-              <h3 class="text-[8px] font-semibold text-[#0a192f]">Reflorestamento BR</h3>
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-gray-400 group-hover:text-[#d4af37] transition-colors"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+          <a href="https://japahouse.com.br" target="_blank" class="project-card group block no-underline">
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="text-[8px] font-extrabold text-[#0B1120]">Japa House</h3>
+              <span class="text-[8px] text-[#0284C7]">↗</span>
             </div>
-            <p class="text-[7px] text-gray-500 leading-relaxed">E-commerce de mudas nativas.</p>
-            <p class="text-[6px] text-gray-400 mt-1.5">Next.js · WhatsApp API</p>
+            <p class="text-[6.8px] text-slate-500 leading-relaxed">Cardápio digital, delivery, operação e rastreamento.</p>
+            <div class="flex flex-wrap gap-1 mt-2"><span class="tag">UX</span><span class="tag">Delivery</span><span class="tag">Ops</span></div>
           </a>
-          <div class="bg-stone-50 p-3 rounded">
-            <div class="flex items-center justify-between mb-1">
-              <h3 class="text-[8px] font-semibold text-[#0a192f]">Enterprise Systems</h3>
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-gray-400"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+
+          <a href="https://www.shoesforyou.com.br" target="_blank" class="project-card group block no-underline">
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="text-[8px] font-extrabold text-[#0B1120]">Shoes For You</h3>
+              <span class="text-[8px] text-[#0284C7]">↗</span>
             </div>
-            <p class="text-[7px] text-gray-500 leading-relaxed">Fintech & ERP. Privado.</p>
-            <p class="text-[6px] text-gray-400 mt-1.5">NestJS · PostgreSQL · Docker</p>
-          </div>
+            <p class="text-[6.8px] text-slate-500 leading-relaxed">E-commerce com catálogo, pedidos, Pix e gestão comercial.</p>
+            <div class="flex flex-wrap gap-1 mt-2"><span class="tag">E-commerce</span><span class="tag">Catálogo</span></div>
+          </a>
+
+          <a href="https://vitrusmc.com.br" target="_blank" class="project-card group block no-underline">
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="text-[8px] font-extrabold text-[#0B1120]">Vitrus</h3>
+              <span class="text-[8px] text-[#0284C7]">↗</span>
+            </div>
+            <p class="text-[6.8px] text-slate-500 leading-relaxed">SaaS em evolução para gestão de telas digitais.</p>
+            <div class="flex flex-wrap gap-1 mt-2"><span class="tag">SaaS</span><span class="tag">Painel</span></div>
+          </a>
+
+          <a href="https://bemficamarchado.com" target="_blank" class="project-card group block no-underline">
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="text-[8px] font-extrabold text-[#0B1120]">Bemfica Marchado</h3>
+              <span class="text-[8px] text-[#0284C7]">↗</span>
+            </div>
+            <p class="text-[6.8px] text-slate-500 leading-relaxed">Site multilíngue com internacionalização e RTL.</p>
+            <div class="flex flex-wrap gap-1 mt-2"><span class="tag">i18n</span><span class="tag">RTL</span></div>
+          </a>
         </div>
       </section>
 
-      <!-- GRID: FORMAÇÃO + IDIOMAS + DIFERENCIAIS -->
-      <div class="grid grid-cols-3 gap-8">
+      <!-- GRID FINAL -->
+      <div class="grid grid-cols-3 gap-7">
 
         <!-- FORMAÇÃO -->
         <section>
           <h2 class="section-title">Formação</h2>
           <div class="space-y-3">
             <div>
-              <div class="flex justify-between text-[8px]">
-                <span class="font-semibold text-[#0a192f]">Eng. Computação</span>
-                <span class="text-gray-400">2026</span>
+              <div class="flex justify-between text-[7.6px]">
+                <span class="font-bold text-[#0B1120]">AI Fundamentals</span>
+                <span class="text-slate-400">40h</span>
               </div>
-              <p class="text-[7px] text-gray-500">Início previsto</p>
+              <p class="text-[6.8px] text-slate-500">Tess / Pareto.io</p>
             </div>
             <div>
-              <p class="text-[8px] font-semibold text-[#0a192f]">Formação Complementar</p>
-              <p class="text-[7px] text-gray-500">Autodidata + Cursos Online</p>
-              <p class="text-[7px] text-gray-400">Full-Stack, React, Node, AI, AWS</p>
+              <div class="flex justify-between text-[7.6px]">
+                <span class="font-bold text-[#0B1120]">Gestão Empresarial</span>
+                <span class="text-slate-400">960h</span>
+              </div>
+              <p class="text-[6.8px] text-slate-500">CPT / UOV Universidade Online de Viçosa</p>
             </div>
             <div>
-              <p class="text-[8px] font-semibold text-[#0a192f]">Background</p>
-              <p class="text-[7px] text-gray-500">+10 anos em gestão de negócios</p>
+              <p class="text-[7.6px] font-bold text-[#0B1120]">Engenharia Civil</p>
+              <p class="text-[6.8px] text-slate-500">UNIPAC · Superior incompleto · 4 períodos</p>
             </div>
           </div>
         </section>
@@ -243,23 +357,19 @@
           <h2 class="section-title">Idiomas</h2>
           <div class="space-y-3">
             <div>
-              <div class="flex justify-between text-[8px] mb-1">
-                <span class="font-medium text-gray-700">Português</span>
-                <span class="text-gray-400">Nativo</span>
+              <div class="flex justify-between text-[7.6px] mb-1">
+                <span class="font-medium text-slate-700">Português</span>
+                <span class="text-slate-400">Nativo</span>
               </div>
-              <div class="w-full bg-gray-100 h-1.5 rounded-full">
-                <div class="bg-[#d4af37] h-1.5 rounded-full" style="width: 100%"></div>
-              </div>
+              <div class="w-full bg-slate-100 h-1.5 rounded-full"><div class="bg-[#38BDF8] h-1.5 rounded-full" style="width:100%"></div></div>
             </div>
             <div>
-              <div class="flex justify-between text-[8px] mb-1">
-                <span class="font-medium text-gray-700">Inglês</span>
-                <span class="text-gray-400">Intermediário</span>
+              <div class="flex justify-between text-[7.6px] mb-1">
+                <span class="font-medium text-slate-700">Inglês</span>
+                <span class="text-slate-400">Intermediário</span>
               </div>
-              <div class="w-full bg-gray-100 h-1.5 rounded-full">
-                <div class="bg-[#d4af37] h-1.5 rounded-full" style="width: 70%"></div>
-              </div>
-              <p class="text-[6px] text-gray-400 mt-1">Leitura técnica avançada</p>
+              <div class="w-full bg-slate-100 h-1.5 rounded-full"><div class="bg-[#38BDF8] h-1.5 rounded-full" style="width:70%"></div></div>
+              <p class="text-[6px] text-slate-400 mt-1">Leitura técnica</p>
             </div>
           </div>
         </section>
@@ -267,27 +377,13 @@
         <!-- DIFERENCIAIS -->
         <section>
           <h2 class="section-title">Diferenciais</h2>
-          <ul class="space-y-2 text-[8px] text-gray-600">
-            <li class="flex items-start gap-2">
-              <span class="text-[#d4af37] text-[10px]">◆</span>
-              <span>Projetos reais em produção</span>
-            </li>
-            <li class="flex items-start gap-2">
-              <span class="text-[#d4af37] text-[10px]">◆</span>
-              <span>Deploy completo: código → infra</span>
-            </li>
-            <li class="flex items-start gap-2">
-              <span class="text-[#d4af37] text-[10px]">◆</span>
-              <span>Background em negócios</span>
-            </li>
-            <li class="flex items-start gap-2">
-              <span class="text-[#d4af37] text-[10px]">◆</span>
-              <span>Autodidata & rápido aprendizado</span>
-            </li>
-            <li class="flex items-start gap-2">
-              <span class="text-[#d4af37] text-[10px]">◆</span>
-              <span>0 → produção em 12 meses</span>
-            </li>
+          <ul class="space-y-1.5 text-[7.4px] text-slate-600 leading-snug">
+            <li class="flex gap-2"><span class="bullet-dot"></span><span>Produtos digitais em produção</span></li>
+            <li class="flex gap-2"><span class="bullet-dot"></span><span>IA aplicada a processos reais</span></li>
+            <li class="flex gap-2"><span class="bullet-dot"></span><span>Documentação e contexto operacional</span></li>
+            <li class="flex gap-2"><span class="bullet-dot"></span><span>Deploy completo: domínio, DNS e cloud</span></li>
+            <li class="flex gap-2"><span class="bullet-dot"></span><span>Visão de negócio, produto e execução</span></li>
+            <li class="flex gap-2"><span class="bullet-dot"></span><span>Aprendizado rápido e melhoria contínua</span></li>
           </ul>
         </section>
 
@@ -295,12 +391,10 @@
 
     </main>
 
-    <!-- ═══════════════════════════════════════════════════════════════ -->
     <!-- FOOTER -->
-    <!-- ═══════════════════════════════════════════════════════════════ -->
-    <footer class="absolute bottom-0 left-0 right-0 bg-[#0a192f] px-10 py-3 flex justify-between items-center">
-      <p class="text-[7px] text-gray-500">Dezembro 2025</p>
-      <p class="text-[7px] text-[#d4af37]">Disponível para oportunidades remotas</p>
+    <footer class="absolute bottom-0 left-0 right-0 bg-[#0B1120] px-10 py-3 flex justify-between items-center">
+      <p class="text-[7px] text-slate-500">Atualizado em 2026</p>
+      <p class="text-[7px] text-[#38BDF8]">Disponível para oportunidades remotas ou híbridas</p>
     </footer>
 
   </div>
@@ -310,7 +404,7 @@
       const element = document.getElementById('resume-content');
       html2pdf().set({
         margin: 0,
-        filename: 'Herison_da_Costa_Araujo_CV.pdf',
+        filename: 'Herison_Araujo_CV.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2, useCORS: true },
         jsPDF: { unit: 'px', format: [794, 1123], orientation: 'portrait' }
